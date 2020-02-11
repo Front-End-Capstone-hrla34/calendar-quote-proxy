@@ -1,0 +1,30 @@
+{
+  "name": "calendar-quote-proxy",
+  "version": "1.0.0",
+  "description": "proxy server for calendar/quote module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server-proxy/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-End-Capstone-hrla34/calendar-quote-proxy.git"
+  },
+  "author": "Andy Kuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-End-Capstone-hrla34/calendar-quote-proxy/issues"
+  },
+  "homepage": "https://github.com/Front-End-Capstone-hrla34/calendar-quote-proxy#readme",
+  "dependencies": {
+    "axios": "0.19.2",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "morgan": "1.9.1",
+    "nodemon": "2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.0"
+  }
+}
